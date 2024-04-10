@@ -1,8 +1,8 @@
 terraform {
 
-backend "gcs" {
-    bucket  = "roidtc-240408-user515-tf-state"
-    prefix  = "terraform/state"
+  backend "gcs" {
+    bucket = "roidtc-240408-user515-tf-state"
+    prefix = "terraform/state"
   }
 
 
